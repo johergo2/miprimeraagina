@@ -174,7 +174,7 @@ footer div {
   width: 100%;
   height: auto;
   /*height: 50%;*/
-  border-top: 0.1em solid white; 
+  border-top: 0.1em solid white;
   margin: 0px;  
 }
 
@@ -678,6 +678,14 @@ footer div {
     border-bottom: solid 1px white;     
   }
 
+  .section-2 img {
+    /*width: 100%;
+    height: auto;
+    height: 50%;*/
+    border-top: none;
+    /*margin: 0px; */ 
+  }
+
   .section-3 {
     flex-wrap: wrap;
     /*display: flex;*/
@@ -692,7 +700,7 @@ footer div {
   .section-4 {
     width: auto;
     height: auto;
-    border: solid 1px yellow;
+    /*border: solid 1px yellow;*/
     /*border: none;*/
     border-top: solid 1px white;
     align-items: start;
@@ -701,7 +709,7 @@ footer div {
   .formulario {
     background-color: white;
     border-radius: 12px;
-    border: solid 1px red;
+    border: solid 1px black;
     width: 60vw;
     padding: 1%;
     margin: auto;

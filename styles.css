@@ -410,17 +410,18 @@ footer div {
 
 @media (max-width: 767px) {
   body {
-    width: 100%;
+    width: 100vw;
     background-color: rgb(1, 52, 117);
   }
+
   .container{
     background-color: rgb(1, 52, 117);
-    width: 100%;
+    width: 100vw;
   }
 
   header {
-    background-color: rgb(179, 199, 221);
-    width: 100%;
+    /*background-color: rgb(179, 199, 221);*/
+    width: 100vw;
     height: 6%;
     justify-content: space-between;
     padding-top: 1%;
@@ -459,7 +460,7 @@ footer div {
   .navbar {
     height: 0vh;
     position: absolute;
-    top: 80px;
+    top: 100%;
     left: 0;
     width: 100%;
     background: #021e3d;
@@ -487,7 +488,7 @@ footer div {
    .navbar.active {
     height: auto;    
     width: 100%;
-    border: solid 2px white;  
+    border: solid 1px white;  
    }
 
    /*header nav ul {
@@ -546,7 +547,7 @@ footer div {
     /*color: black;*/
     /*flex-direction: row-reverse;*/
     flex-wrap:wrap-reverse;
-    border: solid 2px red;
+    /*border: solid 2px red;*/
     padding-top: 15%;
     /*margin: 2em;*/
   }
@@ -555,7 +556,7 @@ footer div {
     width: auto;
     margin-top: 5px;
     background-color: rgb(1, 52, 117);
-    border: solid 2px red;
+    /*border: solid 2px red;*/
     color: white;
     font-size: 0.7em;
     align-content: center;
@@ -570,7 +571,7 @@ footer div {
     width: 20%;
     padding: 5%;
     align-content: center;
-    border: solid 1px red;
+    /*border: solid 1px red;*/
   }
 
   .acerca-imagen img {
@@ -596,34 +597,77 @@ footer div {
     text-align: center;
   }
 
+  #Bloque3 h2 {
+    /*background-color: black;*/
+    /*border: solid 5px black;*/
+    text-align: center;
+    font-size: 1.8em;
+  }
+
+  .servicio_1 {
+    /*border: solid 2px yellow;*/
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-top: solid 1px white;
+  }
+
+  .servicio_1 .img3 {
+    border: solid 1px white;
+    width: 70vw;
+    height: 90%;
+    margin-top: 50px;
+  }
+
+  .descrip_1 {
+    font-size: 60%;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-bottom: 5%;
+  }
+
   .servicio_2 {
     /*border: solid 2px red;*/
     margin: auto;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
     border-top: solid 1px white;
   }
 
   .servicio_2 .img3 {
     border: solid 1px white;
-    width: 90%;
+    width: 65vw;
     height: 90%;
     margin-top: 50px;
+  }
+
+  .descrip_2 {
+    font-size: 60%;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-bottom: 5%;
   }
 
   .servicio_3 {
     /*border: solid 2px red;*/
     margin: auto;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
     border-top: solid 1px white;
   }
 
   .servicio_3 .img3 {
     border: solid 1px white;
-    width: 90%;
+    width: 60vw;
     height: 90%;
     margin-top: 50px;
+  }
+
+  .descrip_3 {
+    font-size: 60%;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-bottom: 5%;
   }
 
   .section-3 {
@@ -633,7 +677,7 @@ footer div {
     /*justify-content: flex-start;  */
     background-color: rgb(1, 52, 117);
     margin: 0px;
-    /*border: 0.2em solid yellow;*/
+    /*border: 0.2em solid red;*/
     width: 100%;
   }
 

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+    <script src="https://kit.fontawesome.com/f58106006a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            
+             <!-- <a href="index.html"><i class="fa-brands fa-whatsapp"></i></a>-->
+              <a href="index.html"><i class="fa-solid fa-computer"></i></a>
+              <nav>
+                 <input type="checkbox" id="check">
+                 <label for="check" class="checkbtn">                  
+                   <i class="fa-solid fa-bars"></i>
+                 </label> 
+               <!--  <input type="checkbox" id="check1">
+                 <label for="check" class="checkbtn1">                                    
+                  <i class="fa-solid fa-xmark"></i>
+                </label>  -->              
+                 <nav class="navbar">
+                    <ul class="menu1">
+                       <li class="Lista"><a href="#seccion-principal">Inicio</a></li>                                        
+                       <li class="Lista"><a href="#seccion-principal">Acerca de mi</a></li>  
+                       <li class="Lista"><a href="#Bloque3">Trabajos</a></li>
+                       <li class="Lista"><a href="#Bloque3">Servicios</a></li>
+                       <li class="Lista"><a href="#Bloque4">Contacto</a></li> 
+                    </ul>
+                 </nav> 
+              </nav>
+            
+        </header>
+        <main id="seccion-principal">
+            <section class="section-1">
+                <div class="acerca-de">
+                    <h2 class="acerca-de-h2">Acerca de mí</h2>
+                    <p>Bienvenido a mi Página Web</p>
+                      <p>Mi nombre es Jorge Hernán Gómez, Ingeniero Industrial de profesión con amplia experiencia en empresas de servicios que proveen empleados temporales, realizando labores de coordinación de área, principalmente como líder de nómina y TIC. Responsable de la liquidación y facturación de la nómina (4.000 empleados). Experiencia como líder de proyectos de desarrollo de software, analista de sistemas e ingeniero de soporte (Oracle, SAP-ABAP).
+                      <p>
+                        - Certificado PMP Project Management Profesional por el PMI - Project Management Institute.                        
+                      </p>
+                      <p>
+                        - Certificado Scrum Master.
+                      </p>
+                    </p>
+                </div>
+                <div class="acerca-imagen">
+                    <!--<img src="img/Foto_JHGR.jpeg" alt="imagen portada" height="300" id="img1"> -->
+                    <img src="img/Foto_JHGR.jpeg" alt="imagen portada" id="img1">
+                </div>
+            </section>
+            <section class="section-2">
+                <img src="img/Software1.png" alt="imagen fondo">
+            </section>
+            <div id="Bloque3">           
+              <div>
+                <h2>Servicios</h2>   
+              </div>
+              <section class="section-3">    
+                <div class="servicio_1">              
+                  <img src="img/Rpa3.jpg" alt="imagen-detalle1" height="250" class="img3">  
+                  <div class="descrip_1">
+                    Automatización de Procesos aplicando tecnología RPA (Robotic Process Automation)
+                  </div>                    
+                </div>  
+                <div class="servicio_2">               
+                  <img src="img/Nomina1.jpg" alt="imagen-detalle2" height="250" class="img3">
+                  <div class="descrip_2">
+                    Asesoría y Soporte en Cálculo de Nómina - Colombia
+                  </div>
+                </div>
+                <div class="servicio_3"> 
+                  <img src="img/Excel3.webp" alt="imagen-detalle3" height="250" class="img3">
+                  <div class="descrip_3">
+                    Desarrollo de Macros en Visual Basic para Excel
+                  </div>
+                </div>
+              </section>       
+              <section class="section-4">
+                <h1>Contacto</h1>
+                <p><em>¡Por favor contactarme!</em></p>
+                <form action="" method="get" class="formulario" id="form">
+                  <div class="form-row">
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" name="nombre" type="text" />
+                  </div>
+                  <div class="form-row">
+                    <label for="email">Email</label>
+                    <input
+                      id="email"
+                      name="email"
+                      type="email"
+                      placeholder="pepe@gmail.com"
+                      required
+                    />
+                  </div>
+                  <div class="form-row">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje"></textarea>
+                  </div>
+                  <div class="form-row">
+                    <button>Enviar</button>
+                  </div>
+                  <p class="alertas" id="alertas"></p>
+                </form>
+              </section>     
+            </div>
+        </main>
+        <footer>
+            <div id="Bloque4">
+                <h2>Contacto</h2>
+            </div>  
+            <div class="linkedin">                                 
+              <a href="www.linkedin.com/in/jorge-hernan-gomez-reyes/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="www.linkedin.com/in/jorge-hernan-gomez-reyes/" target="_blank">Linkedin</a>
+              <!--<p>Linkedin</p>  -->            
+            </div> 
+            <div class="whatsapp">
+              <a href="https://wa.me/573185089686" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+              <a href="https://wa.me/573185089686" target="_blank">Whatsapp</a>
+            </div>
+            
+        </footer>
+    </div>
+</body>
+</html>

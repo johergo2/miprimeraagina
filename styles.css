@@ -125,25 +125,20 @@ footer div {
   padding-bottom: 1%;
   /*border: solid 1px yellow;*/
 }
-
 .acerca-imagen img {
   width: 200%;
   border-radius: 120px;
   border: 1px solid black;  /*Borde de la foto JHG*/
 }
-
 .acerca-de {  
   margin: 0;
-  /*border: 1px solid red;*/
   padding: 0em 2em 0em 1em;
 }
-
 .acerca-de h2 {
   color:white;
   font-size: 2em;
   margin: 0em;
-  padding: 0em 0.5em 0em 0em; 
-  /*border: 1px solid red; */
+  padding: 0em 0.5em 0em 0em;   
   text-align: center;
 }
 
@@ -550,16 +545,22 @@ footer div {
     /*border: solid 2px red;*/
     padding-top: 15%;
     /*margin: 2em;*/
+    align-items: center;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   .acerca-de{
-    width: auto;
+    width: 100vw;
     margin-top: 5px;
     background-color: rgb(1, 52, 117);
     /*border: solid 2px red;*/
     color: white;
     font-size: 0.7em;
     align-content: center;
+    justify-content: center;
+    padding: 0em 1em 0em 1em;
   }
 
   .acerca-de p{

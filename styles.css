@@ -603,6 +603,9 @@ footer div {
     /*border: solid 5px black;*/
     text-align: center;
     font-size: 1.8em;
+    padding-left: 0em;
+    padding-right: 0em;
+    padding-bottom: 0%;
   }
 
   .servicio_1 {

@@ -7,10 +7,6 @@ body {
   background-color: rgb(1, 52, 117);
 }
 
-.greeting {
-  color: red;
-  border: solid 2px red;
-}
 
 ol, ul {
   list-style: none;

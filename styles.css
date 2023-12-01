@@ -336,7 +336,7 @@ footer div {
   border: 1px solid #d6d9dc;
   border-radius: 18px;
      
-  width: 80%;
+  width: 80vw;
   padding: 50px;
   margin: 10px 0 10px 50px;
 } 
@@ -598,7 +598,7 @@ footer div {
   }
 
   #Bloque3 h2 {
-    /*background-color: black;*/
+    /*background-color: rgb(21, 7, 71);*/
     /*border: solid 5px black;*/
     text-align: center;
     font-size: 1.8em;
@@ -606,10 +606,12 @@ footer div {
 
   .servicio_1 {
     /*border: solid 2px yellow;*/
+    width: 100vw;
     margin: auto;
     padding-left: 10%;
     padding-right: 10%;
-    border-top: solid 1px white;
+    margin-top: 0%;
+    /*border: solid 1px yellow;*/
   }
 
   .servicio_1 .img3 {
@@ -627,7 +629,8 @@ footer div {
   }
 
   .servicio_2 {
-    /*border: solid 2px red;*/
+  /*border: solid 2px yellow;*/
+    width: 100vw;
     margin: auto;
     padding-left: 10%;
     padding-right: 10%;
@@ -650,6 +653,7 @@ footer div {
 
   .servicio_3 {
     /*border: solid 2px red;*/
+    width: 100vw;
     margin: auto;
     padding-left: 10%;
     padding-right: 10%;
@@ -670,6 +674,10 @@ footer div {
     margin-bottom: 5%;
   }
 
+  .section-2 {    
+    border-bottom: solid 1px white;     
+  }
+
   .section-3 {
     flex-wrap: wrap;
     /*display: flex;*/
@@ -684,25 +692,19 @@ footer div {
   .section-4 {
     width: auto;
     height: auto;
-    /*border-top: solid 1px white;*/
-    border: none;
+    border: solid 1px yellow;
+    /*border: none;*/
     border-top: solid 1px white;
     align-items: start;
   }
 
-  footer {
-    background-color: black;
-    width: auto;
-    padding-bottom: 50px;
-  }
-
   .formulario {
     background-color: white;
-    border-radius: 18px;
-    
-    width: auto;
-    padding: 50px;
-    margin: 10px 0 10px 50px;
+    border-radius: 12px;
+    border: solid 1px red;
+    width: 60vw;
+    padding: 1%;
+    margin: auto;
   } 
   
 /*  .form-row {
@@ -714,8 +716,42 @@ footer div {
   }
   */
 
+  .form-row input[type="text"], .form-row input[type="email"] {
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 6px;
+    width: 85%;
+    padding: 4%;
+    margin: 3%;
+    font-size: 65%;
+  }
+
+  .form-row label {
+    margin-bottom: 1%;
+    margin-top: 3%;
+    margin-left: 4%;
+    text-align: initial;
+    color: black;
+    /*border: solid 1px red;*/
+    font-size: 75%;
+    font-weight: bold;
+  }
+  
+  .form-row textarea {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 70%;
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 6px;
+    min-height: 100px;
+    margin: 3%;
+    padding: 3%;
+    resize: none;
+    width: 85%;
+  }
+
   .form-row button {
-    font-size: 14px;
+    font-size: 85%;
     font-weight: bold;
     color: #ffffff;
     background-color: #5995da;
@@ -723,10 +759,17 @@ footer div {
     border: none;
     border-radius: 5px;
   
-    padding: 10px;
+    padding: 5%;
     cursor: pointer;
   
-    margin-left: 90px;
-    margin-right: 90px;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  
+  footer {
+    background-color: black;
+    width: auto;
+    padding-bottom: 50px;
   }
 }
